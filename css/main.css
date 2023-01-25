@@ -231,7 +231,7 @@ body {
     
       display: flex;
       align-items: center;
-      color: var(--main-white);
+      color: #FFFFFF;
     }
     .btn-order:hover {
       background: var(--focus-hover-color);
@@ -266,14 +266,15 @@ body {
       /* =================================== TEAM ===================================*/
       .team-section {
         background: var(--background-light-color);
-        padding-left: 220px;
+        padding-top: 120px;
+        padding-bottom: 120px;
       
       }
       .section-title-team{
-    margin-left: 480px; 
-    font-weight: 700;
+    text-align: center;
     font-size: 36px;
     line-height: 1.11;
+    margin-bottom: 24px;
     
     text-transform: capitalize;
     
@@ -306,7 +307,7 @@ body {
     background-color: var(--accent-color);
   }
   .footer-container {
-    padding: 100px;
+    padding: 100px 0;
   }
 /* =================================== PORTFOLIO===================================*/
   
@@ -340,22 +341,30 @@ body {
 /* ===* =================================== /FOOTER ===================================*/
 
 
+/*----------------------------------------- portfolio----------------- */
+
 .cards-link-works {
   display: flex;
-  align-items: center;
+ 
   flex-wrap: wrap;
-  row-gap: 48px;
-  column-gap: 24px;
+  gap: 48px 24px;
+  
 }
-
+.card-link-example {
+  flex-basis: calc((100% - 48px)/3);
+  gap:24px;
+  
+}
 
 
 .text-card-exapmle {
   background-color: var(--main-white);
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding: 32px 16px;
+  padding: 0px 16px;
+  width: 326px;
+  
 }
-  /* =================================== /FOOTER ===================================*/
+  
   
  
