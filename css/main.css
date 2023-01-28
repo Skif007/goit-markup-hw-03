@@ -90,35 +90,6 @@ body {
   
 
 
-/* ---------------------------STRATEGY-------------------- */
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-margin-bottom: 72px;
-text-align: center;
-
-}
-
-.section-description-theme-dark {
-    color: #e7e9fc;
-    margin-top: 16px;
-  }
-  .section-description-theme-light {
-    color: #434455;
-  }
-  
-
-  .suptitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    margin-bottom: 8px;
-    
-  }
- 
-  
-
 /* -----------------------HHEADER---------------- */
 
 
@@ -209,7 +180,13 @@ text-align: center;
 
     .hero {
       background-color: var(--accent-color);
-      padding: 188px 0;
+      padding-top: 188px;
+      padding-bottom: 188px;
+margin-right: auto;
+margin-left: auto;
+background-color: cover;
+width: 1440px;
+
     }
     .main-title {
     width: 550px;
@@ -239,12 +216,11 @@ text-align: center;
     }
 
 
-    /* features */
+    /* ==============================features================================= */
 
     .features-section {
       background-color: var(--main-white);
-      margin-top: 120px;
-      margin-bottom: 120px;
+      padding: 120px 0;
     }
     
     .features {
@@ -252,13 +228,38 @@ text-align: center;
       align-items: center;
       gap: 24px;
     }
+    .section-title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.11;
+    margin-bottom: 72px;
+    text-align: center;
+    
+    }
+    
+    .section-description-theme-dark {
+        color: #e7e9fc;
+        margin-top: 16px;
+      }
+      .section-description-theme-light {
+        color: #434455;
+      }
+      
+    
+      .suptitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 8px;
+        
+      }
 
 
 /*----------------- we doing ==========================*/
 
 .doing-section {
   background-color: var(--main-white);
-  padding-top: 0;
+  padding-bottom: 120px;
 }
 .img-sites {
   display: flex;
@@ -284,8 +285,7 @@ text-align: center;
 
       }
      
-    
-      
+
       .team-cards {
         display: flex;
         
@@ -303,13 +303,18 @@ text-align: center;
   
   
   /* =================================== FOOTER ===================================*/
-  footer {
-    background-color: var(--accent-color);
-  }
-  .footer-container {
+  .footer {
+    background-color: #2e2f42;
     padding: 100px 0;
   }
-/* =================================== PORTFOLIO===================================*/
+  .footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+
+  /* ============================ PORTFOLIO===================================*/ */
+
   
 .filter-section {
   padding-top: 96px;
@@ -338,14 +343,7 @@ text-align: center;
   background: var(--focus-hover-color);
   color: var(--main-white);
 }
-/* ===* =================================== /FOOTER ===================================*/
-.footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
-
-/*----------------------------------------- portfolio----------------- */
 
 .cards-link-works {
   display: flex;
@@ -365,7 +363,7 @@ text-align: center;
   background-color: var(--main-white);
   border: 1px solid #e7e9fc;
   border-top: none;
-  gap: 48px 24px;
+  gap: 32px 32px;
  
   
 }
